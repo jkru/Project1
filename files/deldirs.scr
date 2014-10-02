@@ -1,0 +1,1 @@
+cat ../commandline/abcs.lst | awk '{print("rm -rf "$1)}' | bash
